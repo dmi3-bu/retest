@@ -62,7 +62,7 @@ module Retest
       when  1
         [true, matching_tests.first]
       else
-        [true, prompt.ask_which_test_to_use(path, matching_tests)]
+        [true, matching_tests]
       end
     end
   end
