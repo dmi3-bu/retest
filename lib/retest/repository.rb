@@ -28,7 +28,6 @@ module Retest
         .map    { |path| find_test(path) }
         .compact
         .uniq
-        .sort
     end
 
     def sync(added:, removed:)
